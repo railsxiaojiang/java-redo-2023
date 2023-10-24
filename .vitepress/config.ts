@@ -31,8 +31,7 @@ export default defineConfig({
         items: [
           { text: '1.框架说明', link: '/client/index' },
           { text: '2.状态码', link: '/global/status' },
-          { text: '3.短信服务', link: '/client/conversation' },
-          { text: '4.OSS说明', link: '/client/conversation' },
+          { text: '3.第三方服务', link: '/global/services' },
 
         ],
       },
