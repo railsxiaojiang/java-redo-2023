@@ -32,7 +32,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: '1.框架说明', link: '/client/index' },
-          { text: '2.状态码', link: '/client/session' },
+          { text: '2.状态码', link: '/global/status' },
           { text: '3.短信服务', link: '/client/conversation' },
           { text: '4.OSS说明', link: '/client/conversation' },
 
@@ -55,6 +55,17 @@ export default defineConfig({
 
       {
         text: '后端接口说明',
+        collapsed: true,
+        items: [
+          { text: '1.登录接口', link: '/apis/session' },
+
+
+
+        ],
+      },
+
+      {
+        text: '接口详细说明',
         collapsed: true,
         items: [
           { text: '1.登录接口', link: '/apis/session' },
