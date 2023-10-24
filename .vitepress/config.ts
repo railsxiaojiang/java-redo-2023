@@ -20,10 +20,8 @@ export default defineConfig({
   themeConfig: {
     logo: '/electron-vite.png',
     nav: [
-      { text: '解决方案', link: '/guide/why-electron-vite' },
-      { text: '产品说明', link: '/guide/why-electron-vite' },
-      { text: 'FAQ', link: '/faq/electron-forge' },
-      { text: '产品日志', link: '/guide/why-electron-vite' },
+      { text: '后端文档', link: '/guide/why-electron-vite' },
+      { text: '接口文档', link: 'https://besumeje80.apifox.cn/' },
     ],
     sidebar: [
 
